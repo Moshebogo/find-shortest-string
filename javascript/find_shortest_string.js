@@ -9,9 +9,6 @@ function findShortestString(array) {
   return shortest
 }
 
-
-
-
 function print(param) {
   console.log(param)
 }
