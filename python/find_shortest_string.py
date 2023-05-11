@@ -1,8 +1,11 @@
 class Solution:
     def find_shortest_string(self, array):
-        print(self)
-        print(array)
-        return 'return statement'
+        shortest = array[0]
+        for string in array:
+            if len(string) < len(shortest):
+                shortest = string
+        return shortest        
+
 
 
 if __name__ == '__main__':
